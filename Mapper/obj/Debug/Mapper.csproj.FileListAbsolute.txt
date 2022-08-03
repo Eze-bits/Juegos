@@ -1,0 +1,9 @@
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\obj\Debug\Mapper.csproj.AssemblyReference.cache
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\obj\Debug\Mapper.csproj.CoreCompileInputs.cache
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\bin\Debug\Mapper.dll
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\bin\Debug\Mapper.pdb
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\bin\Debug\Entidades.dll
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\bin\Debug\Entidades.pdb
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\obj\Debug\Mapper.csproj.CopyComplete
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\obj\Debug\Mapper.dll
+C:\UAI\7to cuat\lug\parcial_2\Parcial_2\Mapper\obj\Debug\Mapper.pdb

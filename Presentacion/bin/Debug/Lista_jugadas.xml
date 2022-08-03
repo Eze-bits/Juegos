@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Jugadas>
+  <Jugada Codigo_jugador="1">
+    <Nombre_juego>TaTeTi</Nombre_juego>
+    <Resultado>Perdio</Resultado>
+  </Jugada>
+</Jugadas>

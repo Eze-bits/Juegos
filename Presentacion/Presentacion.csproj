@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A34E75B-76AD-4124-8A1C-7D83A25C318A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InformesFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformesFRM.Designer.cs">
+      <DependentUpon>InformesFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformexJugadorFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformexJugadorFRM.Designer.cs">
+      <DependentUpon>InformexJugadorFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JugadoresFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JugadoresFRM.Designer.cs">
+      <DependentUpon>JugadoresFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jugador_juegosFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jugador_juegosFRM.Designer.cs">
+      <DependentUpon>Jugador_juegosFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jugador_am_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jugador_am_FRM.Designer.cs">
+      <DependentUpon>Jugador_am_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuFRM.Designer.cs">
+      <DependentUpon>MenuFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pptFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pptFRM.Designer.cs">
+      <DependentUpon>pptFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaTeTiFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaTeTiFRM.Designer.cs">
+      <DependentUpon>TaTeTiFRM.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="InformesFRM.resx">
+      <DependentUpon>InformesFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformexJugadorFRM.resx">
+      <DependentUpon>InformexJugadorFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JugadoresFRM.resx">
+      <DependentUpon>JugadoresFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jugador_juegosFRM.resx">
+      <DependentUpon>Jugador_juegosFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jugador_am_FRM.resx">
+      <DependentUpon>Jugador_am_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuFRM.resx">
+      <DependentUpon>MenuFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pptFRM.resx">
+      <DependentUpon>pptFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TaTeTiFRM.resx">
+      <DependentUpon>TaTeTiFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{6ba3b2c9-881b-4548-abde-89f39c6e7076}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{69d6d492-5cf4-43d7-8d3b-c29ab0e0d72a}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
