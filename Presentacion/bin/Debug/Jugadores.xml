@@ -1,12 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Jugadores>
-  <Jugador DNI="31171624">
+  <Jugador DNI="16234802">
+    <Codigo>2</Codigo>
+    <Nombre>diego</Nombre>
+    <Apellido>malnati</Apellido>
+    <Email>dsa@mail.com</Email>
+    <Fecha_de_nacimiento>1/3/1980</Fecha_de_nacimiento>
+    <Localidad>ituzaingo</Localidad>
+    <Puntos>28</Puntos>
+  </Jugador>
+  <Jugador DNI="3211234">
     <Codigo>1</Codigo>
-    <Nombre>eze</Nombre>
-    <Apellido>gi</Apellido>
+    <Nombre>juan</Nombre>
+    <Apellido>perez</Apellido>
     <Email>asd@mail.com</Email>
-    <Fecha_de_nacimiento>6/11/1984</Fecha_de_nacimiento>
-    <Localidad>a</Localidad>
-    <Puntos>11</Puntos>
+    <Fecha_de_nacimiento>1/1/1990</Fecha_de_nacimiento>
+    <Localidad>moron</Localidad>
+    <Puntos>21</Puntos>
   </Jugador>
 </Jugadores>

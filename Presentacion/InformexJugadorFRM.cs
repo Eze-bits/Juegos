@@ -30,7 +30,9 @@ namespace Presentacion
         private void grilla_jugadores_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             try {
-            
+
+               
+
                 Jugador J= (Jugador)grilla_jugadores.SelectedRows[0].DataBoundItem;
                 
                 int[] ppt = new int[3];

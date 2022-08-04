@@ -49,7 +49,7 @@ namespace Presentacion
             // 
             // codigotxt
             // 
-            this.codigotxt.Location = new System.Drawing.Point(385, 33);
+            this.codigotxt.Location = new System.Drawing.Point(385, 25);
             this.codigotxt.Name = "codigotxt";
             this.codigotxt.Size = new System.Drawing.Size(100, 20);
             this.codigotxt.TabIndex = 0;
@@ -70,14 +70,14 @@ namespace Presentacion
             // 
             // nombretxt
             // 
-            this.nombretxt.Location = new System.Drawing.Point(191, 90);
+            this.nombretxt.Location = new System.Drawing.Point(181, 90);
             this.nombretxt.Name = "nombretxt";
             this.nombretxt.Size = new System.Drawing.Size(100, 20);
             this.nombretxt.TabIndex = 4;
             // 
             // dnitxt
             // 
-            this.dnitxt.Location = new System.Drawing.Point(39, 85);
+            this.dnitxt.Location = new System.Drawing.Point(27, 90);
             this.dnitxt.Name = "dnitxt";
             this.dnitxt.Size = new System.Drawing.Size(100, 20);
             this.dnitxt.TabIndex = 5;
@@ -85,7 +85,7 @@ namespace Presentacion
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(64, 69);
+            this.label1.Location = new System.Drawing.Point(65, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 13);
             this.label1.TabIndex = 6;
@@ -94,7 +94,7 @@ namespace Presentacion
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(223, 69);
+            this.label2.Location = new System.Drawing.Point(203, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 7;
@@ -112,7 +112,7 @@ namespace Presentacion
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(382, 69);
+            this.label4.Location = new System.Drawing.Point(382, 74);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 9;
@@ -121,7 +121,7 @@ namespace Presentacion
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(64, 133);
+            this.label5.Location = new System.Drawing.Point(49, 149);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 10;
@@ -130,7 +130,7 @@ namespace Presentacion
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(366, 133);
+            this.label6.Location = new System.Drawing.Point(356, 149);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(106, 13);
             this.label6.TabIndex = 11;
@@ -159,7 +159,7 @@ namespace Presentacion
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(203, 133);
+            this.label7.Location = new System.Drawing.Point(215, 149);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(32, 13);
             this.label7.TabIndex = 15;
