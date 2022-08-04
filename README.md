@@ -1,4 +1,4 @@
-# Parcial_2
+# Juegos app
 
 Parcial 2do de la materia LUG (lenguajes de ultima generacion).  
   Lenguaje C# en Windows Forms.  
